@@ -17,5 +17,15 @@ path = "chapter3/103_async.rs"
 name = "107_move"
 path = "chapter3/107_move.rs"
 
+[[bin]]
+name = "109_tokio"
+path = "chapter3/109_tokio.rs"
+
+[[bin]]
+name = "110_async-std"
+path = "chapter3/110_async-std.rs"
+
 [dependencies]
 futures = "0.3.21"
+tokio = {version = "1.6.1", features =["full"]}
+async-std = {version = "1.9.0", features = ["attributes"]}
