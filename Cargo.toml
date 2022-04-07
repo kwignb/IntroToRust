@@ -25,7 +25,12 @@ path = "chapter3/109_tokio.rs"
 name = "110_async-std"
 path = "chapter3/110_async-std.rs"
 
+[[bin]]
+name = "112_async-trait"
+path = "chapter3/112_async-trait.rs"
+
 [dependencies]
 futures = "0.3.21"
 tokio = {version = "1.6.1", features =["full"]}
 async-std = {version = "1.9.0", features = ["attributes"]}
+async-trait = "0.1.53"
